@@ -1,0 +1,44 @@
+body,
+h1,
+p,
+h2,
+img {
+    margin: 0;
+    padding: 0;
+}
+#steps {
+    border: 1px solid red;
+    display: flex;
+}
+
+.steps_container {
+    border: 1px solid blue;
+    margin: 100px 0 100px 100px;
+    
+}
+
+.steps_container_step {
+   border: 1px solid green; 
+   width: 500px;
+   margin: 0 auto;
+   
+}
+
+.steps_container_step_item {
+   display: flex; 
+    border: 1px solid black;
+    margin: 20px;
+
+}
+ img {
+    width: 100%;
+}
+.image {
+    width: 560px;
+    height: 480px;
+    margin: 100px 20px 100px 200px;
+}
+.steps_container_step_item_Number
+{
+    margin-right: 5px;
+}

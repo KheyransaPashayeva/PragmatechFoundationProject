@@ -1,0 +1,91 @@
+#registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 100vh;
+    background:linear-gradient(to right, rgb(206, 43, 124) 5%,rgb(184, 49, 116) 50%,rgb(160, 14, 153) 99%)
+}
+.login-form{
+    background-color: white;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.container {
+    background-color: white;
+    width: 410px;
+    height: 400px;
+    margin: 10px 10px 10px 20px;
+}
+input[type=text] ,select , input[type=date] , input[type=email],
+input[type=tel] {
+    width: 90%; 
+    border: 1px solid gainsboro;
+    box-sizing: border-box; 
+    margin-top: 5px; 
+    margin-bottom: 8px; 
+    resize: vertical ;
+    padding: 5px;
+  }
+  #female {
+      margin-left: 20px;
+
+  }
+   .gender {
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+      
+   }
+  
+   .gendercheck label {
+       margin-left: 7px;
+   }
+  .name {
+      font-size: 12px;
+      display: flex;
+      justify-content: space-around;
+
+  }
+  .property {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
+  .contact {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #email {
+      width: 183px;
+  }
+  #mobile {
+    width: 183px;
+    
+}
+.phone{
+    width: 216px;
+}
+label{
+    color: rgb(88, 86, 86);
+}
+h1{
+    color: rgb(48, 47, 47);
+}
+.btn input{
+    margin: 20px;
+    color: white;
+    border-color: rgb(20, 103, 199);
+    border-radius: 2px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(20, 103, 199);
+}
+.form-input{
+ color: rgb(88, 86, 86);
+}

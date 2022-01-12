@@ -1,0 +1,112 @@
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#why_eduguard {
+    background: rgba(235,235,242,0.7);
+    padding: 100px 0px;
+   
+   
+
+}
+
+.why_eduguard_learn {
+
+    width: 1400px;
+}
+
+ h1 {
+    text-align: center;
+    color:  #202029;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    font-size: 40px;
+
+}
+.why_eduguard_learn_container {
+    display: flex;
+  
+    margin: 0 100px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.why_eduguard_learn_container_item {
+  
+    background-color: #fff;
+    width: 367px;
+    height: 288px;
+    border-radius: 5px;
+
+
+}
+.icons_book  {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 32px;
+    border-radius: 5px;
+    font: weight 400px; 
+    
+}
+.icons_book i {
+    color: seagreen;
+    margin: 0 auto;
+}
+   
+    
+
+.icons_user  {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 32px;
+    border-radius: 5px;
+    font: weight 400px; 
+}
+.icons_user i{
+    color: royalblue;
+    margin: 0 auto;
+    
+}
+ 
+
+
+.icons_clock  {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 32px;
+    border-radius: 5px;
+    font: weight 400px; 
+   
+}
+.icons_clock i{
+    color: orangered;
+    margin: 0 auto;
+    font: weight 400px; 
+}
+   
+h2 {
+    width: 270px;
+    height: 36px;
+    margin-bottom: 12px;
+    margin: 0 auto;
+}
+p {
+    width: 270px;
+    height: 72px;
+    padding: 30px 30px 30px 50px;
+    color: grey;
+}

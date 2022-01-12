@@ -1,0 +1,25 @@
+.container div:nth-child(odd) {
+  border: 2px solid red;
+
+
+}
+.container div:nth-child(even) {
+  border: 3px solid blue;
+}
+.container div:nth-child(5n+3){
+  width: 100px;
+  height: 200px;
+  background-color: black;
+}
+.container div:nth-child(5n-4) {
+  width: 200px;
+  height: 400px;
+  background-color: green;
+}
+.container div:nth-child(2) {
+  width: 200px;
+  height: 400px;
+  background-color: green;
+}
+
+
