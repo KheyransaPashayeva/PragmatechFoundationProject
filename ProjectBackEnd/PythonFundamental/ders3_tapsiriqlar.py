@@ -69,11 +69,11 @@
 #                     if parol == tesdiq :
 #                         print('Qeydiyyat tamamlandi!')
 #                         yoxla = input('Qeydiyyat detallarini gormek isteyirsiz? ')
-#                         if yoxla == 'he' :
+#                         if yoxla == 'he':
 #                             print(f'Ad: {ad} Soyad: {soyad} Yas: {il} Email: {mail} Parol: {parol}')
 #                         elif yoxla == 'yox':
 #                             print('Murad Əliyev, Uğurlar!')
-#                     else :
+#                     else:
 #                        print('Parol tesdiq duzgun daxil edilmeyib!')
 #                 else:
 #                     print('parol duzgun daxil edilmeyib!')
