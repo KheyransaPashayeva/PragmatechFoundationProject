@@ -35,7 +35,7 @@
 # day = ['Monday','Tuesday ','Wednesday ','Thursday  ','Friday  ','Saturday ','Sunday']
 # my_list =[1,2,3,4,5,6,7]
 # def returnDay():
-#     for i in my_list:
+#     for _ in my_list:
 #         if typeday >=1 and typeday <=7:
 #             day_index =my_list.index(typeday)
 #             for j in range(len(day)):
@@ -128,7 +128,7 @@
 # eded = input('Ededleri dagil edin: ')
 # numbers = eded.split()
 # def is_first_last_true(numbers):
-#     for i in numbers:
+#     for _ in numbers:
 #         if numbers[0] == numbers[-1]:
 #            return True
 #     return False
