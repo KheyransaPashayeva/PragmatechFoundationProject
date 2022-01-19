@@ -46,18 +46,8 @@
 #5) Natural ədədin onluq yazılışında rəqəmləri eyni olan və bu ədədin onluq yazılışının mərkəzinə nəzərən simmetrik
 #yerləşən cütlüklərin sayını həmin ədədin simmetriya dərəcəsi adlandıracağıq. Əgər ədəddə hər hansı rəqəm onluq
 #yazılışda ortada yerləşirsə, onu da özü ilə bir cütlük kimi saymaq lazımdır. n ədədinin simmetriya dərəcəsini tapın.
-# num= input('istediyiniz uzunluqda bir eded daxil edin: ')
-# def simmetrik(n):
-#     s = len(n)
-#     b = int(s/2)
-#     say =0
-#     for i in range(1,b):
-#        if n[0]==n[s-1]:
-#            say+=1
-#        if n[i]==n[s-i]:
-#            say +=1
-#     return say
-# print(simmetrik(num))     
+
+    
 # ========================================================================================================================
 #6) Robotun yerdəyişməsi hər bir əmri latın əlifbasının 3 böyük hərfinə - L, R, S hərflərinə uyğun proqramla müəyyənləşir.
 #  L əmri icra edildikdə robot bir dama sola, R əmrində bir dama sağa hərəkət edir, S əmrində isə olduğu damada qalır.
