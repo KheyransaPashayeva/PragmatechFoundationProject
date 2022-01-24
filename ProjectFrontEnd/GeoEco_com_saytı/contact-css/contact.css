@@ -147,7 +147,11 @@ h1{
  
  .container-mail {
      background-color: rgb(250, 250, 250);
-    
+     display: flex;
+     padding: 60px;
+     justify-content: center;
+     flex-direction: column;
+    box-sizing: border-box;
  }
  .call_head {
      display: flex;
@@ -176,6 +180,16 @@ h1{
          font-size: 15px;
          font-weight: 400;
  }
+ input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+   -webkit-rtl-ordering: logical;
+   width: 95%;
+ }
  input[type="text"] {
      margin-bottom: 20px;
      padding-top: 10px;
@@ -186,29 +200,55 @@ h1{
      border-bottom-style: solid;
      background-color: hsla(0, 0%, 100%, 0.85);
  }
+ input[type="tel"]{
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    border-width: 0px 0px 3px;
+    border-color: #000 #000 rgba(69, 122, 191, 0.13);
+    border-bottom-style: solid;
+    background-color: hsla(0, 0%, 100%, 0.85);
+}
  
  form {
-    margin-top: 15px;
-     display: flex;
-     flex-direction: column;
-     justify-content: space-evenly;
+    display: block;
+    margin-top: 0em;
+    width: 100%;
  }
  input[type="submit"]{
-     width: 100px;
-     height: 40px;
      background-color: #023859;
      color: #fff;
-    
+     user-select: none;
+     white-space: pre;
+     align-items: center;
+     text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 26.8%;
+
  }
  .form{
-     padding: 60px;
-     width: 362px;
+    height: 100%;
+    width: 100%;
+    margin: 0 0 15px;
  }
  .submit-button {
-     background-color: #023859;
+    transition: all 300ms ease-out;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    background-color: #023859;
  }
- input.w-button {
-     -webkit-appearance: button;
+.w-button {
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
  }
  
  /*contact style end */

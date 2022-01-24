@@ -60,7 +60,7 @@
 #   print('Sayi:',say)
 # beraber_bolen(eded)
 # =============================================================================================================
-#5) Verilmiş hesabi ifadədə toplama (+), çıxma (-) və vurma (*) əməllərinin ümumi sayını müəyyənləşdirin.
+# 5) Verilmiş hesabi ifadədə toplama (+), çıxma (-) və vurma (*) əməllərinin ümumi sayını müəyyənləşdirin.
 # Giriş verilənləri
 # Yeganə sətirdə mötərizə və boşluq işarəsi olmayan hesabi ifadə verilir. İfadədə simvolların sayı 250-ni aşmır.
 # Çıxış verilənləri
