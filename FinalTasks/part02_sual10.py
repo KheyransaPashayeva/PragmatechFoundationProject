@@ -10,16 +10,37 @@
 # -parol daxil etdikden sonra parol sifrelenmis sekilde sisteme dusmelidir.Bunun ucun encript arasdirmasini ede bilersiz
 # -ana menuye qayitmaq yuxaridaki menuyunun gorunmesi ,proqramdan cixmaq ise umumi proqramin dayanmasi menasina gelir
 def ana_menu():
- print('Qeydiyyatdan kecmek ucun [1] yazin:\nSisteme daxil olmaq ucun [2] yazin:\nAna menuye qayitmaq ucun [3] yazin:\nSistemden cixmaq ucun [4] yazin:')
-ana_menu()
+ return('''Qeydiyyatdan kecmek ucun [1] yazin:\nSisteme daxil olmaq ucun [2] yazin:\n
+ Ana menuye qayitmaq ucun [3] yazin:\nSistemden cixmaq ucun [4] yazin:''')
+print(ana_menu())
 secim = int(input('Seciminizi daxil edin: '))
-my_list =[]
-def yoxla(a):
-    if a ==1:
+istifadeciler =[]
+class Istifadeci:
+    def __init__(self,ad,parol):
+        self.ad=ad
+        self.parol=parol
+        istifadeciler.append(self)   #liste elave etmek ucun
+        def istifadeci_data_goster(self):
+            print(f'{self.ad} siz qeydiyyatdan kecmisiniz')
+
+while True:
+  if secim == 1:
         ad=input('-Istifadeci adiniz: ')
-        soyad=input('-Parolunuz: ')
-        my_list.append(ad,soyad)
-    if a==2:
-        ...
-    if a == 3:
-        return ana_menu()
+        parol=input('-Parolunuz: ')
+        istifadeci = Istifadeci(ad, parol)  
+        print('ugurla qeydiyyatdan kecdiniz!')
+        secim = int(input('Seciminizi daxil edin: '))     
+  if secim==2:
+       adiniz = input('Adinizi daxil edin:')
+       for adiniz in istifadeciler:
+           istifadeci.istifadeci_data_goster()
+           if adiniz not in istifadeciler:
+                print('Qeydiyyatdan kecmemisiniz!')
+       secim = int(input('Seciminizi daxil edin: '))
+  if secim == 3:
+        print(ana_menu()) 
+        secim = int(input('Seciminizi daxil edin: '))
+
+  if secim ==4:
+   break
+
