@@ -10,8 +10,7 @@
 # -parol daxil etdikden sonra parol sifrelenmis sekilde sisteme dusmelidir.Bunun ucun encript arasdirmasini ede bilersiz
 # -ana menuye qayitmaq yuxaridaki menuyunun gorunmesi ,proqramdan cixmaq ise umumi proqramin dayanmasi menasina gelir
 def ana_menu():
-    return('''Qeydiyyatdan kecmek ucun [1] yazin:\nSisteme daxil olmaq ucun [2] yazin:\n
- Ana menuye qayitmaq ucun [3] yazin:\nSistemden cixmaq ucun [4] yazin:''')
+    return('''Qeydiyyatdan kecmek ucun [1] yazin:\nSisteme daxil olmaq ucun [2] yazin:\nAna menuye qayitmaq ucun [3] yazin:\nSistemden cixmaq ucun [4] yazin:''')
 print(ana_menu())
 secim = int(input('Seciminizi daxil edin: '))
 istifadeciler =[]
