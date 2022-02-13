@@ -121,6 +121,7 @@ h1{
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
+    height: 791px;
  }
  .contact-container {
      display: grid;
@@ -130,7 +131,8 @@ h1{
      box-sizing: border-box;
  }
  .container-call {
-     background-color: #034771;
+    background-color: #023859;
+     padding: 60px;
  }
  .contact-h1 {
      color: #b1ff00;
@@ -139,12 +141,61 @@ h1{
      font-weight: 500;
      line-height: 44px;
  }
+ .container-call p{
+    font-family: Poppins, sans-serif;
+    color: #e4e4e4;
+    font-size: 15px;
+    line-height: 2.1;
+    font-weight: 400;
+    margin-bottom: 10px;
+ }
+ .container-call a{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+ }
+ .container-call h3{
+    margin-top: 20px;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    line-height: 2.1;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+ .location-text{
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 500;
+    color: #fff;
+ }
+ .location{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    -webkit-box-align: start;
+    box-sizing: border-box;
+    font-size: 14px;
+ }
   .fa-phone-alt {
      color: #b1ff00;
      font-size: 40px;
      font-weight: 300;
  }
- 
+ .link {
+    margin-top: 60px;
+ }
+ .mail{
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+ }
+ .phone {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+ }
  .container-mail {
      background-color: rgb(250, 250, 250);
      display: flex;
@@ -153,10 +204,16 @@ h1{
      flex-direction: column;
     box-sizing: border-box;
  }
+ .container-call img{
+     width: 25px;
+     height: 25px;
+     margin-right: 20px;
+     box-sizing: border-box;
+ }
  .call_head {
      display: flex;
      align-items: center;
-     margin: 78px 0px 30px 60px;
+     margin: 0px 0px 30px 60px;
      font-weight: 400;
  }
  .call_text {
@@ -225,7 +282,7 @@ h1{
      text-align: center;
     display: flex;
     justify-content: center;
-    width: 26.8%;
+    width: 29%;
 
  }
  .form{
@@ -250,13 +307,26 @@ h1{
     cursor: pointer;
     border-radius: 0;
  }
+ .text-area{
+    padding: 8px 12px;
+    width: 94%;
+    min-height: 150px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-width: 3px;
+    color: #023859;
+    font-size: 15px;
+    border-color: rgba(69, 122, 191, 0.13);
+    background-color: hsla(0, 0%, 100%, 0.85);
+ }
  
  /*contact style end */
 
 /* resent project style start */
 #projects {
     height: 49em;
-    
     background-color: #023859;
    
     
@@ -277,7 +347,15 @@ h1{
      height: 29em;
      position: relative;
      z-index: 1;
-     
+     transition: bottom 475ms ease-out;
+    
+ }
+ .itemss {
+    transition: bottom 475ms ease-out; 
+ }
+ .itemss:hover{
+    bottom: 10px;
+    opacity: 1;
  }
 .item img{
     width: 100%;
@@ -313,7 +391,8 @@ h1{
         font-size: 18px;
         line-height: 1.8;
         font-weight: 600;
-        padding: 40px 25px 10px 25px;
+        padding: 20px 25px 0px 25px;
+        margin-bottom: 10px;
     
 }
 .paragraf2 {
@@ -321,12 +400,13 @@ h1{
     font-size: 12px;
     font-weight: 400;
     line-height: 2.1;
-    padding: 0 25px 20px 25px;
+    padding: 0 25px 30px 25px;
+    margin: 0;
 }
 .butn {
 
     background-color: #b1ff00;
-    width: 200px;
+    width: 220px;
     height: 60px;
     border: none;
     color: #023859;
@@ -335,3 +415,67 @@ h1{
 }
 
 /* resent project style end */
+/* footer start */
+#footer{
+    background-color: #fff;
+    box-sizing: border-box;
+}
+footer{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+    max-width: 1220px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.social{
+    align-items: center;
+    font-family: 'Futura bt';
+    color: #fff;
+    font-weight: 300;
+    display: flex;
+    margin-right: 10px;
+}
+.social-text{
+    color: #023859;
+    font-weight: 500;
+    margin-right: 20px;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+}
+.icons{
+    display: flex;
+}
+.icon{
+    margin-right: 15px;
+    transition: all 300ms ease-out;
+}
+.icon img{
+    border: 0;
+    width: 30px;
+    transition: all 300ms ease;
+}
+.company {
+    color: #393939;
+    font-size: 14px;
+}
+.byme{
+    color: #393939;
+    font-size: 14px;
+}
+.byme a{
+    transition: all 300ms ease;
+    color: #023859;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 14px;
+}
+.byme a:hover {
+    color: #457abf;
+}
+.icon img:hover{
+    opacity: 0.5;
+}

@@ -174,7 +174,7 @@ h1{
     opacity: 1;
  }
 .first-img {
-    background: linear-gradient(180deg, rgba(180, 216, 238, 0.37), rgba(181, 210, 228, 0.37)), url(../image/i5.jpg) center/cover no-repeat;
+    background: linear-gradient(180deg, rgba(180, 216, 238, 0.37), rgba(181, 210, 228, 0.37)), url('../image/i5.jpg') center/cover no-repeat;
     margin-right: 2em;
     position: relative;
     width: 53em;
@@ -188,7 +188,7 @@ h1{
     bottom: 0.5em;
     left: 17em;
     z-index: 2;
-    background: linear-gradient(180deg, rgba(16, 95, 145, 0.5), rgba(15, 90, 136, 0.5)), url(../image/i4.jpg) center/cover no-repeat;
+    background: linear-gradient(180deg, rgba(16, 95, 145, 0.5), rgba(15, 90, 136, 0.5)), url('../image/i4.jpg') center/cover no-repeat;
 
 }
 .last-img {
@@ -198,7 +198,7 @@ h1{
     bottom: -5em;
     left: 4em;
     z-index: 3;
-    background: linear-gradient(180deg, rgba(1, 83, 134, 0.37), rgba(207, 222, 231, 0.5)), url(../image/i3.jpg) center/cover no-repeat;
+    background: linear-gradient(180deg, rgba(1, 83, 134, 0.37), rgba(207, 222, 231, 0.5)), url('../image/i3.jpg') center/cover no-repeat;
 }
  .main-about-img div {
      border: 12px solid white;
