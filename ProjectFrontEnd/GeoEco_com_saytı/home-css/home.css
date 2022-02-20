@@ -37,7 +37,7 @@ img {
     width: 56em;
     height: 49em;
     margin: 0 auto;
-    margin: 7.5em 4.5em 7.5em 10em;
+    margin: 5em 4.5em 7.5em 10em;
     
 }
 .content h1 {
@@ -59,10 +59,15 @@ img {
     height: 6.8em;
 }
 .logo-img img{
-    width: 40%;
-    height: 120%;
+    width: 70px;
+    height: 80px;
 }
-
+.geo-logo{
+    margin: 0px;
+    color:  #b1ff00;
+    padding: 0px;
+    margin-bottom: 50px;
+}
 nav { 
       
     display: flex;
@@ -175,12 +180,11 @@ nav i {
 /* menu style start */
 .menus{
     position: fixed;
-    left: 0px;
+    left: 0%;
     top: 0px;
     right: 0px;
     bottom: 0px;
     z-index: 20;
-    display: none;
     width: 100%;
     height: auto;
     min-height: 100vh;
@@ -189,8 +193,16 @@ nav i {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    opacity: 1;
     background-image: linear-gradient(180deg, #457abf, #023859);
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease .6s;
+}
+
+.active {
+    opacity: 1;
+    visibility: visible;
+    transition: all ease .6s;
 }
 .menu-grid{
     min-height: 100vh;
@@ -424,11 +436,13 @@ nav i {
      height: 29em;
      position: relative;
      z-index: 1;
-     transition: bottom 300ms ease-out;
+     bottom: 0px;
+     transition: all .4s ease;
      
  }
- .itemss:hover{
-     bottom: 10px;
+ .itemss:hover {
+    bottom: 10px;
+    transition: all .4s ease;
  }
 .item img{
     width: 100%;
@@ -555,7 +569,7 @@ nav i {
     opacity: 1;
  }
 .first-img {
-    background: linear-gradient(180deg, rgba(180, 216, 238, 0.37), rgba(181, 210, 228, 0.37)), url(../image/i5.jpg) center/cover no-repeat;
+    background: linear-gradient(180deg,  rgba(16, 95, 145, 0.3), rgba(15, 90, 136, 0.3)), url(../image/i5.jpg) center/cover no-repeat;
     margin-right: 2em;
     position: relative;
     width: 51em;
@@ -566,20 +580,20 @@ nav i {
     position: absolute;
     width: 38em;
     height: 20em;
-    bottom: 17em;
+    bottom: 1em;
     left: 17em;
     z-index: 2;
-    background: linear-gradient(180deg, rgba(16, 95, 145, 0.5), rgba(15, 90, 136, 0.5)), url(../image/i4.jpg) center/cover no-repeat;
+    background: linear-gradient(180deg, rgba(16, 95, 145, 0.3), rgba(15, 90, 136, 0.3)), url(../image/i4.jpg) center/cover no-repeat;
 
 }
 .last-img {
     position: absolute;
     width: 23em;
     height: 16em;
-    bottom: 6em;
-    left: 6em;
+    bottom: -5em;
+    left: 3em;
     z-index: 3;
-    background: linear-gradient(180deg, rgba(1, 83, 134, 0.37), rgba(207, 222, 231, 0.5)), url(../image/i3.jpg) center/cover no-repeat;
+    background: linear-gradient(180deg, rgba(16, 95, 145, 0.3), rgba(15, 90, 136, 0.3)), url(../image/i3.jpg) center/cover no-repeat;
 }
  .main-about-img div {
      border: 12px solid #034771;
@@ -871,10 +885,12 @@ input[type="submit"]{
  }
  .team-item {
     padding: 5px;
+    width: 160px;
+    height: 160px;
     background-color: hsla(0, 0%, 89.4%, 0.22);
 }
 .team-item img{
-    width: 100%;
+    width: 150px;
     height: 100%;
     object-fit: cover;
 }
@@ -1004,16 +1020,15 @@ footer a {
     height: 140px;
 }
 .footer-logo img{
-    width: 90%;
-    object-fit: cover;
-    height: 140%;
+    width: 100px;
+    height: 130px;
 }
 .footer-flex{
     display: flex;
     justify-content: space-between;
     font-size: 14px;
-     color: #393939;
-    }
+    color: #393939;
+}
 .byme a{
     transition: all 300ms ease;
     color: #023859;

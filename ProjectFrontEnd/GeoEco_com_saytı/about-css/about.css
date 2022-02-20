@@ -8,11 +8,20 @@ body{
     margin: 0px;
     padding: 0px;
 }
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0;
+}
 /* navbar style start */
 #navbar{
     height: auto;
-    background: linear-gradient(180deg, rgba(69, 122, 191, 0.8), #023859), url('../image/abouthead.jpg') center/cover no-repeat;
-    padding: 60px 0px;
+    background: linear-gradient(180deg, rgba(69, 122, 191, 0.8), #023859), url('../image/abouthead2.jpg') center/cover no-repeat;
+    padding: 30px 0px 60px 0px;
 }
 .nav-container{
     width: 87%;
@@ -24,6 +33,12 @@ body{
 .nav{
     display: flex;
     justify-content: space-between;
+    align-items:flex-end;
+   
+    
+}
+nav{
+    margin-bottom: 20px;
 }
 
 #navbar a{
@@ -35,23 +50,26 @@ body{
     text-transform: uppercase;
     background-color: transparent;
     transition: all 300ms ease-out;
-
+    
 }
 .nav a{
     padding-right: 40px;
 }
-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
-    border: 0;
-}
+
 .logo{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 80px;
+}
+.logo img{
+    width: 70px;
+    height: 80px;
+}
+.geo-logo{
+   margin: 0px;
+   color:  white;
+   padding: 0px;
+   font-size: 12px;
+   margin-left: 5px;
 }
 .header{
     display: flex;
@@ -174,7 +192,7 @@ h1{
     opacity: 1;
  }
 .first-img {
-    background: linear-gradient(180deg, rgba(180, 216, 238, 0.37), rgba(181, 210, 228, 0.37)), url(../image/i5.jpg) center/cover no-repeat;
+    background: linear-gradient(180deg,  rgba(16, 95, 145, 0.3), rgba(15, 90, 136, 0.3)), url(../image/i5.jpg) center/cover no-repeat;
     margin-right: 2em;
     position: relative;
     width: 53em;
@@ -185,7 +203,7 @@ h1{
     position: absolute;
     width: 38em;
     height: 26em;
-    bottom: 0.5em;
+    bottom: 14em;
     left: 17em;
     z-index: 2;
     background: linear-gradient(180deg, rgba(16, 95, 145, 0.5), rgba(15, 90, 136, 0.5)), url(../image/i4.jpg) center/cover no-repeat;
@@ -195,10 +213,10 @@ h1{
     position: absolute;
     width: 22em;
     height: 15.5em;
-    bottom: -5em;
-    left: 4em;
+    bottom: 6em;
+    left: 3em;
     z-index: 3;
-    background: linear-gradient(180deg, rgba(1, 83, 134, 0.37), rgba(207, 222, 231, 0.5)), url(../image/i3.jpg) center/cover no-repeat;
+    background: linear-gradient(180deg, rgba(16, 95, 145, 0.3), rgba(15, 90, 136, 0.5)), url(../image/i3.jpg) center/cover no-repeat;
 }
  .main-about-img div {
      border: 12px solid white;
@@ -575,9 +593,8 @@ footer a {
     height: 150px;
 }
 .footer-logo img{
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
+    width: 100px;
+    height: 130px;
 }
 .footer-flex{
     display: flex;
